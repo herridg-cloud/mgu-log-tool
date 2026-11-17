@@ -1,9 +1,16 @@
 {
   "id": "custom-log-dump",
   "kind": "tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "title": "Log Dump USB",
   "description": "Salveaza ambient_config.log pe stick USB",
   "mguHmi": ["ID7", "ID8"],
+  "files": [
+    {
+      "path": "dump.sh",
+      "from": "dump.sh",
+      "mode": "0755"
+    }
+  ],
   "postInstall": ["dump.sh"]
 }
