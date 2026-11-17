@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "tools": [
+    {
+      "id": "custom-log-dump",
+      "path": "tools/custom-log-dump"
+    }
+  ]
+}
