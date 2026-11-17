@@ -1,9 +1,9 @@
 {
   "id": "custom-log-dump",
   "kind": "tool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "title": "Log Dump USB",
-  "description": "Salveaza ambient_config.log pe stick USB",
+  "description": "Salveaza toate logurile aplicatiilor pe stick USB",
   "mguHmi": ["ID7", "ID8"],
   "files": [
     {
